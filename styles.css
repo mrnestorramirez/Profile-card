@@ -53,7 +53,6 @@ select {
 }
 
 body {
-	font-size: .875rem;
 	font-family: var(--ff);
 	color: var(--clr-light);
 	min-height: 100vh;
@@ -63,8 +62,8 @@ body {
 }
 
 .profile {
-	width: 20rem;
-	min-height: 65vh;
+	width: 25rem;
+	min-height: 60vh;
 	border-radius: var(--br);
 	background-color: var(--clr-dark-grey);
 	display: flex;
@@ -90,8 +89,11 @@ body {
 	width: 30%;
 }
 
+.profile__info-user {
+	font-size: 2rem;
+}
+
 .profile__info-location {
-	font-size: .75rem;
 	font-weight: var(--fw-regular);
 	color: var(--clr-interaction);
 }
@@ -100,7 +102,6 @@ body {
 	padding-block: var(--padding-block);
 	padding-inline: .5rem;
 	font-weight: var(--fw-light);
-	font-size: .7rem;
 }
 
 .profile__contact {
@@ -118,7 +119,6 @@ body {
 	padding: .75rem;
 	margin-inline: .5rem;
 	border-radius: var(--br);
-	font-size: .75rem;
 }
 
 .profile__contact-source:hover {
