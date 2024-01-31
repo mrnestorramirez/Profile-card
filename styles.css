@@ -62,7 +62,7 @@ body {
 }
 
 .profile {
-	width: 25rem;
+	width: 100%;
 	min-height: 60vh;
 	border-radius: var(--br);
 	background-color: var(--clr-dark-grey);
@@ -86,7 +86,7 @@ body {
 .profile__info-image {
 	padding-block: var(--padding-block);
 	border-radius: 50%;
-	width: 25%;
+	width: 25vmin;
 }
 
 .profile__info-user {
