@@ -63,8 +63,8 @@ body {
 }
 
 .profile {
-	width: 18.5rem;
-	height: 80vh;
+	width: 20rem;
+	height: 70vh;
 	border-radius: var(--br);
 	background-color: var(--clr-dark-grey);
 	display: flex;
