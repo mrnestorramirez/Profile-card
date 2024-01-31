@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+img,
+picture,
+video,
+svg {
+	max-width: 100%;
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	word-break: break-all;
+	font-weight: inherit;
+}
+
+input,
+textarea,
+button,
+select {
+	font: inherit;
+}
+
+:root {
+	--padding-block: .75rem;
+	--br: 7.5px;
+
+	--ff: 'Inter', sans-serif;
+
+	--fw-light: 400;
+	--fw-regular: 600;
+	--fw-bold: 700;
+
+	--clr-interaction: hsl(75, 94%, 57%);
+	--clr-light: hsl(0, 0%, 100%);
+	--clr-light-grey: hsl(0, 0%, 20%);
+	--clr-dark-grey: hsl(0, 0%, 12%);
+	--clr-off-black: hsl(0, 0%, 8%);
+}
+
+body {
+	font-size: .875rem;
+	font-family: var(--ff);
+	color: var(--clr-light);
+	min-height: 100vh;
+	background-color: var(--clr-off-black);
+	display: grid;
+	place-content: center;
+}
+
+.profile {
+	width: 18.5rem;
+	border-radius: var(--br);
+	background-color: var(--clr-dark-grey);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1.75em;
+}
+
+.profile__info {
+	padding-block: var(--padding-block);
+
+	font-weight: var(--fw-light);
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	align-items: center;
+}
+
+.profile__info-image {
+	padding-block: var(--padding-block);
+	border-radius: 50%;
+	width: 30%;
+}
+
+.profile__info-location {
+	font-size: .75rem;
+	font-weight: var(--fw-regular);
+	color: var(--clr-interaction);
+}
+
+.profile__description {
+	padding-block: var(--padding-block);
+	padding-inline: .5rem;
+	font-weight: var(--fw-light);
+	font-size: .7rem;
+}
+
+.profile__contact {
+	padding-block: var(--padding-block);
+	padding-block-end: 0;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	row-gap: .75rem;
+	text-align: center;
+}
+
+.profile__contact-source {
+	background-color: var(--clr-light-grey);
+	padding: .75rem;
+	margin-inline: .5rem;
+	border-radius: var(--br);
+	font-size: .75rem;
+}
+
+.profile__contact-source:hover {
+	background-color: var(--clr-interaction);
+	color: var(--clr-off-black);
+	font-weight: var(--fw-bold);
+	cursor: pointer;
+}
