@@ -86,7 +86,7 @@ body {
 .profile__info-image {
 	padding-block: var(--padding-block);
 	border-radius: 50%;
-	width: 30%;
+	width: 25%;
 }
 
 .profile__info-user {
