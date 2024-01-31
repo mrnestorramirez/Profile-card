@@ -110,13 +110,13 @@ body {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	row-gap: .75rem;
+	row-gap: 1rem;
 	text-align: center;
 }
 
 .profile__contact-source {
 	background-color: var(--clr-light-grey);
-	padding: .75rem;
+	padding: 1rem;
 	margin-inline: .5rem;
 	border-radius: var(--br);
 }
